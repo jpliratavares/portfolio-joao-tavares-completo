@@ -1,4 +1,5 @@
 import React from "react";
+import joao from '/joao.png';
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -7,7 +8,7 @@ function Hero() {
       {/* Imagem do João com fade embaixo e laterais */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/joao.png"
+          src="{joao}"
           alt="João Pedro de Lira Tavares"
           className="absolute right-0 bottom-[-90px] h-[130%] w-[350px] md:w-[460px] lg:w-[520px] max-w-none select-none pointer-events-none object-cover"
           style={{
